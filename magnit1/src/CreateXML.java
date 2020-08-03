@@ -36,7 +36,7 @@ public class CreateXML {
 
             znachField.add(rs.getInt(1)); // добавляем значения таблицы в список
         }
-            Collections.sort(znachField);
+        //    Collections.sort(znachField);
 
         } catch (SQLException sqlEx) {
             sqlEx.printStackTrace();
